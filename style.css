@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.interface{
+	background-image: url(imagens/fundo.jpg);
+	height: 1280px;
+	border-top: 10px solid #fff;
+}
+.menu{
+	display: block;	
+	padding-left: 470px;
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-weight: normal;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #626262;
+	padding: 10px;
+}
+.menu ul li a:hover {
+	color: #000;
+	background-color: #fff;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.topo img{
+	padding-left: 190px;
+	padding-top: 20px;
+}
+.face{
+	text-indent: 190px;
+	padding-top: 20px;
+}
+.corpo p{
+	text-align: justify;
+	padding-left: 190px;
+	padding-right: 205px;
+	padding-top: 20px;
+}
+.corpo h1{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color: #626262;
+	font-weight: normal;
+	padding-top: 25px;
+	text-align: center;
+}
+.corpo h2{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color: #000;
+	font-weight: normal;
+	padding-top: 25px;
+	text-indent: 190px;
+}
+.corpo a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.rodape img{
+	margin-top: 50px;
+}
